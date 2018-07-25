@@ -1,0 +1,21 @@
+{
+  "name": "minify-html",
+  "main": "./lib/minify-html",
+  "version": "1.0.0",
+  "description": "An HTML minifier for Atom",
+  "keywords": [
+    "minify",
+    "html",
+    "minifier"
+  ],
+  "activationCommands": {
+    "atom-workspace": "minify-html:toggle"
+  },
+  "repository": "https://github.com/bossley9/minify-html",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
