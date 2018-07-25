@@ -9,7 +9,7 @@
     "minifier"
   ],
   "activationCommands": {
-    "atom-workspace": "minify-html:toggle"
+    "atom-workspace": "minify-html:minify"
   },
   "repository": "https://github.com/bossley9/minify-html",
   "license": "MIT",

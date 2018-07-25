@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "minify-html:toggle"
+    "ctrl-alt-o": "minify-html:minify"
   }
 }

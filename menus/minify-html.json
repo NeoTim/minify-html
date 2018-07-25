@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle minify-html",
-        "command": "minify-html:toggle"
+        "label": "Minify HTML",
+        "command": "minify-html:minify"
       }
     ]
   },
@@ -15,9 +15,17 @@
           "label": "minify-html",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "minify-html:toggle"
+              "label": "minify",
+              "command": "minify-html:minify"
+            },
+            {
+              "type": "separator"
+            },
+            {
+              "label": "test123",
+              "command": "minify-html:minify"
             }
+
           ]
         }
       ]
