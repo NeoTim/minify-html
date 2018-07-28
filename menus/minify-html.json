@@ -1,34 +1,16 @@
 {
-  "context-menu": {
-    "atom-text-editor": [
-      {
-        "label": "Minify HTML",
-        "command": "minify-html:minify"
-      }
-    ]
-  },
   "menu": [
     {
       "label": "Packages",
-      "submenu": [
-        {
-          "label": "minify-html",
-          "submenu": [
-            {
-              "label": "minify",
-              "command": "minify-html:minify"
-            },
-            {
-              "type": "separator"
-            },
-            {
-              "label": "test123",
-              "command": "minify-html:minify"
-            }
+      "submenu": [{
+        "label": "minify-html",
+        "submenu": [
+          { "label" : "Minify", "command": "minify-html:minify" },
 
-          ]
-        }
-      ]
+          { "type"  : "separator" }
+
+        ]
+      }]
     }
   ]
 }
