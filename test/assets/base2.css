@@ -1,0 +1,10 @@
+html, body {
+    background-image: url("tag.png");
+    background-size: 10%;
+    background-position: 90% 90%;
+    background-repeat: no-repeat;
+}
+
+p {
+  color: white;
+}
